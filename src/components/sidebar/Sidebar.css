@@ -1,0 +1,33 @@
+.sidebar-section {
+  flex: 3;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #f1eeee;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-subsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-title{
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 12px;
+  padding: 6px;
+  border-top: 1px solid #787dd4;
+  border-bottom: 1px solid #787dd4;
+  font-family: 'Raleway', sans-serif;
+  line-height: 20px;
+}
+.sidebar-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}

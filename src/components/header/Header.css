@@ -1,0 +1,27 @@
+
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(43, 43, 83);
+  text-transform: uppercase;
+}
+
+.header-title {
+  position: absolute;
+  top: 20%;
+  font-size: 90px;
+}
+.header-subtitle {
+  position: absolute;
+  top: 18%;
+  font-size: 22px;
+}
+
+.header-img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
