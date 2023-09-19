@@ -4,13 +4,13 @@ const ListingDetail = () => {
   return (
     <div className="listing-detail">
       <div className="listing-detail-content">
-        <img src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-        <h2 className="listing-detail-title">Awesome property
+        <img className="listing-detail-img" src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+        <h1 className="listing-detail-title">Awesome property
           <div className="listing-detail-action">
             <i className="listing-detail-action-icons fa-solid fa-pen-to-square"></i>
-            <i className="listing-detail-action-icons fa-solid fa-trash"></i>
+            <i className="listing-detail-action-icons fa-solid fa-trash-can"></i>
           </div>
-        </h2>
+        </h1>
         <div className="listing-detail-meta-info">
           <span className="listing-detail-author">Author -  <strong>John Doe</strong></span>
           <span className="listing-detail-time">1 day ago</span>

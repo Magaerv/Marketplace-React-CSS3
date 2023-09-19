@@ -1,4 +1,4 @@
-import ListingItem from '../listin-item/ListingItem';
+import ListingItem from '../listing-item/ListingItem';
 import './Listing.css';
 
 const Listing = () => {

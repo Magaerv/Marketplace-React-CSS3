@@ -1,4 +1,5 @@
 import './ListingItem.css';
+import { Link } from 'react-router-dom'; 
 
 const ListingItem = () => {
   return (
@@ -9,7 +10,7 @@ const ListingItem = () => {
           <span className="listing-category">Buy</span>
           <span className="listing-category">Sell</span>
         </div>
-        <span className="listing-title">Awesome property</span>
+        <Link to="/detail/1"><span className="listing-title">Awesome property</span></Link>
         <hr />
         <span className="listing-time">2 days ago</span>
         <p className="listing-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus risus at ultrices mi tempus. Velit laoreet id donec ultrices. Eget mauris pharetra et ultrices neque ornare aenean. </p>

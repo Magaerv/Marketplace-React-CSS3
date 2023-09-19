@@ -54,6 +54,17 @@
   color: rgb(43, 43, 83);
 }
 
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited,
+a:hover,
+a:active {
+  text-decoration-line: underline ;
+ }
+ 
 .menu-search {
   color: rgb(43, 43, 83);
   cursor: pointer;
