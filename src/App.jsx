@@ -1,5 +1,6 @@
 import Menu from './components/menu/Menu';
-import Home from './pages/homepage/Home';
+//import Home from './pages/homepage/Home';
+import Detail from './pages/listingdetail/Detail';
 
 function App () {
 
@@ -7,7 +8,8 @@ function App () {
   return (
     <div>
       <Menu />
-      <Home />
+     {/* <Home /> */}
+      <Detail />
     </div>
   )
 }
