@@ -1,12 +1,11 @@
-
-
 .header-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Nunito Sans', sans-serif;
-  color: rgb(43, 43, 83);
+  color: rgb(219, 219, 219);
   text-transform: uppercase;
+  text-shadow: 6px 6px 6px rgba(2, 1, 60, 0.649);
 }
 
 .header-title {
@@ -14,10 +13,14 @@
   top: 20%;
   font-size: 90px;
 }
+
 .header-subtitle {
+  color:rgba(2, 1, 60, 0.649);
   position: absolute;
   top: 18%;
-  font-size: 22px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 6px 6px 6px rgba(255, 255, 255, 0.5);
 }
 
 .header-img {

@@ -32,7 +32,7 @@
   margin-right: 12px;
   cursor: pointer;
   font-size: 22px;
-  color: rgb(43, 43, 83);
+  color: var(--primary-color);
 }
 
 .menu-list {
